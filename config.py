@@ -1,19 +1,19 @@
 import os, re
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6590068990:AAG1uI2CHAvISuEBnyZAzQ5jwpbGQFtohPc")
+API_ID = int(os.environ.get("API_ID", "22287041"))
+API_HASH = os.environ.get("API_HASH", "c149386dcd58a40fa9fe60e632e161d4")
+OWNER = int(os.environ.get("OWNER", "6141937812"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "ludakagov")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "Madflix_Bots")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001869105126"))
 
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://bharathkalladi38:JWdbdJAsH3q9IUaj@cluster0.wvsv51o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
-STRING = os.environ.get("STRING", "")
+STRING = os.environ.get("STRING", "BQDa-FcAUUgvpOJGhG1jCLDDyOfLofOcw_21dQUUKWhhAu1DSxawig4rSftvpTskthbf_wCdKk-xpISCPMgaPNltTqC7QUch8I-fXkwCMHSuj84puhV0LRBGVSHRLXgWwppW1uyLYKQ9fkPN8lkpP-M8-mDHIV3nvTdP5-3DUQaS5trFAamM0JWBS-S39TGX89Som6Ex-2DcjckPCmPNvjA7WiyrX4pewKKlfrvbU_44UZxFEQq1NbHIDX07f--adYmQ6SuDMfWYaA6lQx599fr4HwGhaRgWjdYnQkKeETwpLwFZCzX3LSKQZlHsnTtgREvkXb6EVh7gvGQOQnvc2fkyb3kRyAAAAAGJzmhsAA")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
 
 
